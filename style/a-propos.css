@@ -1,0 +1,68 @@
+body{
+  color:black;
+  font-family: 'Dancing Script', cursive;
+  font-weight: bold;
+  margin:0;
+  background-color: #c29aa1;
+}
+
+/* 1.début code css header et footer */
+.logo_reseaux{
+  width:40px;
+  height:40px
+}
+a{
+  text-decoration: none;
+  color:black;
+}
+a:hover{
+  text-decoration: underline;
+}
+header, footer{
+  background-color: white;
+}
+footer,
+nav {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+padding: 20px 50px;
+font-size: 1.5em;
+}
+.title {
+  margin-right: 5px;
+  margin-bottom: 5px;
+  position: relative;
+  bottom:8px;
+}
+img[alt="logo_loreal"]{
+  position: relative;
+  top:12px;
+}
+.espace_gauche{
+  display:inline-block;
+  margin-right: 60px;
+}
+/* 1.fin code css header et footer */
+
+/* 2. début code en constuction */
+main{
+  height: 745px;
+}
+p img{
+  width:819px;
+  height: 614;
+  border:2px solid white;
+  border-radius: 40px;
+  position: relative;
+  left:525px;
+  top:50px;
+
+}
+/* 2. fin code en constuction */
+
+
+/* 3. début code css Media Queries */
+@media screen and (max-width: 996px) {
+}
